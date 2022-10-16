@@ -1,0 +1,50 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Silkscreen&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+/* End of Fonts */
+
+
+.main-body {
+    font-family: 'Silkscreen', sans-serif;
+}
+
+#name-heading {
+    font-family: 'Abril+Fatface', sans-serif;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+#title-heading {
+    font-family: 'Abril+Fatface', sans-serif;
+}
+
+
+.main-section>figure>img {
+    width: 300px;
+    float: left;
+    margin: 20px;
+}
+
+
+.main-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.main-section>p:nth-child(2) {
+    background-color: cyan;
+}
+
+.main-section>p:nth-child(4) {
+    background-color: cyan;
+}
+
+
+
+#p-second {
+    color: yellowgreen;
+}
